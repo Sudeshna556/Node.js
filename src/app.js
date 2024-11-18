@@ -2,7 +2,7 @@ const express = require ("express") // import express module
 
 const app = express(); //create an instance of an Express application,this isntace stored in the app object that represents your web application
 
-//?app.listen(3000) 
+//?app.listen(3000)
 //it starts our server
 
 
