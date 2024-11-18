@@ -3,7 +3,7 @@ const express = require("express"); //import
 const app = express(); //object
 
 // handlers 
-
+// we can also pass these multiple handlers inside an array [rh1, rh2, rh3...]
 app.use("/user",(req,res,next) => {
     console.log("hello!!"); 
     //res.send("1st response") //? it will show the 1st response
