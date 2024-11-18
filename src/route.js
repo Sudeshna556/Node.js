@@ -25,7 +25,7 @@ app.delete("/user",(req,res) =>{
 });
 
 app.use("/test",(req,res)=>{ 
-    res.send("this line is just trial and to show you how to pass files, for ex /test file");
+    res.send("This is another response!!");
 });
 
 app.listen(3000, () => {
