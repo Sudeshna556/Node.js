@@ -20,7 +20,7 @@ app.use("/user",(req,res,next) => {
    // res.send("3rd response")
     console.log("hello2")
     next()
-}, // it wont print the next one b/c in 2nd handler there is no next() to call the 3rd one so the response cant be sent to the cline in the 3rd case
+},
 
 (req,res,next) =>{
     res.send("3rd response")
