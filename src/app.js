@@ -12,4 +12,3 @@ connectDB() //returns a promise and it represents an asynchronous operation to c
  .catch((error) =>{ //takes a callback fn which will be executed if the promise is resolved
     console.error("database cannot be connected !!")
  });
-
